@@ -15,7 +15,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="https://cleanuri.com";
+var hostURL="https://test-run-blackguard.onrender.com";
 //TOGGLE for Shorters
 var use1pt=false;
 
