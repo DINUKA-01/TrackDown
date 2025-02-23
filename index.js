@@ -123,7 +123,7 @@ var m={
 var cUrl=`${hostURL}/c/${url}`;
 var wUrl=`${hostURL}/w/${url}`;
   
-bot.sendChatAction(cid,"typing");
+bot.sendChatAction(cid,"recoding");
 if(use1pt){
 var x=await fetch(`https://short-link-api.vercel.app/?query=${encodeURIComponent(cUrl)}`).then(res => res.json());
 var y=await fetch(`https://short-link-api.vercel.app/?query=${encodeURIComponent(wUrl)}`).then(res => res.json());
