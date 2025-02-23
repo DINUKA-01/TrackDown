@@ -15,7 +15,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="https://railway.com/project/217d021e-d404-4781-879f-a361177b9421/service/7ef05385-599f-4062-9326-4734d57cd787?environmentId=48191819-f5c5-4a14-b3db-427f45a0c1d4&id=053d10b9-e389-4152-af02-853420a8ff76#deploy";
+var hostURL="https://cleanuri.com/";
 //TOGGLE for Shorters
 var use1pt=false;
 
