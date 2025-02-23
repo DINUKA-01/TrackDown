@@ -15,7 +15,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="https://trackdown-production-99e1.up.railway.app";
+var hostURL="YOUR URL";
 //TOGGLE for Shorters
 var use1pt=false;
 
@@ -123,7 +123,7 @@ var m={
 var cUrl=`${hostURL}/c/${url}`;
 var wUrl=`${hostURL}/w/${url}`;
   
-bot.sendChatAction(cid,"recoding");
+bot.sendChatAction(cid,"typing");
 if(use1pt){
 var x=await fetch(`https://short-link-api.vercel.app/?query=${encodeURIComponent(cUrl)}`).then(res => res.json());
 var y=await fetch(`https://short-link-api.vercel.app/?query=${encodeURIComponent(wUrl)}`).then(res => res.json());
