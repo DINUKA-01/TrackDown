@@ -15,7 +15,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="https://rtvidj.com";
+var hostURL="terrific-contentment-production.up.railway.app";
 //TOGGLE for Shorters
 var use1pt=false;
 
