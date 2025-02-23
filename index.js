@@ -15,7 +15,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="https://railway.com/project/217d021e-d404-4781-879f-a361177b9421/service/7ef05385-599f-4062-9326-4734d57cd787?environmentId=48191819-f5c5-4a14-b3db-427f45a0c1d4&id=22014540-8ef2-4283-bc83-a91e63f36bda#deploy";
+var hostURL="https://trackdown-production-d69a.up.railway.app/";
 //TOGGLE for Shorters
 var use1pt=false;
 
